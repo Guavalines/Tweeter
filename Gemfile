@@ -76,3 +76,4 @@ gem "cssbundling-rails"
 gem "name_of_person"
 gem "sidekiq", "~> 6.5", ">= 6.5.4"
 gem "stripe"
+gem 'tailwindcss-rails', '~> 2.0', '>= 2.0.27'
