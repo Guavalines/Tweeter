@@ -1,11 +1,13 @@
 class TweetsController < ApplicationController
+  before_action :authenticate_user!
   def index
     @tweet = Tweet.new
     @tweets = Tweet.all.order(created_at: :asc)
   end
 
   def create
-    @tweet = Tweet.new(tweet_params)
+    @tweet = Tweet.new(tweet_params.merge(user_id: current_user))
+    @tweet.user = current_user
     respond_to do |format|
       if @tweet.save
         format.turbo_stream
