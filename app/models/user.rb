@@ -6,4 +6,6 @@ has_person_name
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   has_many :tweets
+
+  validates_uniqueness_of :username
 end
