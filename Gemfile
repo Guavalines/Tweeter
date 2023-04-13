@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.0.3"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.4", ">= 7.0.4.3"
+gem "rails", "~> 7.0.3"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -28,7 +28,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
@@ -70,11 +70,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem "devise", "~> 4.8", ">= 4.8.1"
+gem "devise", "~> 4.8"
 gem "friendly_id", "~> 5.4", ">= 5.4.2"
+gem "sidekiq", "~> 6.3", ">= 6.3.1"
+gem "name_of_person", "~> 1.1", ">= 1.1.1"
 gem "cssbundling-rails"
-gem "name_of_person"
-gem "sidekiq", "~> 6.5", ">= 6.5.4"
-gem "stripe"
+gem "pay", "~> 3.0"
+gem "stripe", ">= 2.8", "< 6.0"
 gem 'tailwindcss-rails', '~> 2.0', '>= 2.0.27'
 gem 'activestorage'
