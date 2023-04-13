@@ -8,8 +8,10 @@
   <% end %>
 <% end %>
 
-<%= turbo_frame_tag Tweet.new do %>
-  <% if Tweet.all.none? %>
-    <%= render "empty" %>
+<div id="empty">
+  <%= turbo_frame_tag Tweet.new do %>
+    <% if Tweet.all.none? %>
+      <%= render "empty" %>
+    <% end %>
   <% end %>
-<% end %>
+</div>
