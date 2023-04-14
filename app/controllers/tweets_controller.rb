@@ -1,13 +1,15 @@
 class TweetsController < ApplicationController
   before_action :authenticate_user!
+
   def index
     @tweet = Tweet.new
     @tweets = Tweet.all.order(created_at: :desc)
   end
 
   def create
-    @tweet = Tweet.new(tweet_params.merge(user_id: current_user))
+    @tweet = Tweet.new(tweet_params)
     @tweet.user = current_user
+
     respond_to do |format|
       if @tweet.save
         format.turbo_stream
@@ -18,6 +20,12 @@ class TweetsController < ApplicationController
         end
       end
     end
+  end
+
+  def show
+    @tweet = Tweet.find(params[:id])
+    @comment = Comment.new
+    @comments = @tweet.comments.order(created_at: :desc)
   end
 
   def destroy
@@ -40,10 +48,9 @@ class TweetsController < ApplicationController
   end
 
 
-
   private
 
-  def tweet_params
-    params.require(:tweet).permit(:body, :tweet_id)
-  end
+    def tweet_params
+      params.require(:tweet).permit(:body, :tweet_id)
+    end
 end
