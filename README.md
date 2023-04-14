@@ -1,24 +1,18 @@
-# README
+# TWEETER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Overview of Main Features:
 
-Things you may want to cover:
 
-* Ruby version
+Basic CRUD for Tweets: The app features basic CRUD principles, allowing users to create, read, update, and destroy tweets.
 
-* System dependencies
+User Authentication: The app uses the Devise gem to create a user authentication system, which ties tweets to user accounts. Only authenticated users can author tweets.
 
-* Configuration
+User Profiles: The app includes user profiles, which display a given user's tweets and profile image.
 
-* Database creation
+Tweet Controls: Users can take action on their tweets using various controls, including the ability to delete their own tweets.
 
-* Database initialization
+Retweeting: Users can retweet tweets from other users, creating a new tweet with a reference to the original author.
 
-* How to run the test suite
+Comments: Users can leave comments on tweets, with the ability to delete their own comments.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Likes: Users can "like" both tweets and comments, with a polymorphic "like" feature that enables code reuse. Stats such as comment counts and retweet counts are updated accordingly.
