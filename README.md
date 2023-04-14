@@ -4,7 +4,7 @@
 
 
 - BASIC CRUD FOR TWEETS: Users may create, read, update, and destroy tweets.
-- ![Screen Shot 2023-04-14 at 12 14 28 PM](https://user-images.githubusercontent.com/100665876/232137069-6a6c72f5-17c5-4bfd-8ec7-dcf920a943b7.jpeg)
+![Screen Shot 2023-04-14 at 12 14 28 PM](https://user-images.githubusercontent.com/100665876/232137069-6a6c72f5-17c5-4bfd-8ec7-dcf920a943b7.jpeg)
 - USER PROFILES: Includes user profiles, which display a given user's tweets and profile image.
 ![Screen Shot 2023-04-14 at 12 14 42 PM](https://user-images.githubusercontent.com/100665876/232137391-9c5c0905-86bd-40db-afbe-8ee38e61e400.jpeg)
 - COMMENTS: Users can leave comments on tweets, with the ability to delete their own comments.
