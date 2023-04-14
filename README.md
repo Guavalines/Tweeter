@@ -4,6 +4,8 @@
 
 
 - BASIC CRUD FOR TWEETS: Users may create, read, update, and destroy tweets.
+- ![Screen Shot 2023-04-14 at 12 14 28 PM](https://user-images.githubusercontent.com/100665876/232137069-6a6c72f5-17c5-4bfd-8ec7-dcf920a943b7.jpeg)
+
 - USER AUTHENTICATION: Uses Devise gem to create a user authentication system, which ties tweets to user accounts. Only authenticated users can author tweets.
 - USER PROFILES: Includes user profiles, which display a given user's tweets and profile image.
 ![Screen Shot 2023-04-14 at 12 14 42 PM](https://user-images.githubusercontent.com/100665876/232137391-9c5c0905-86bd-40db-afbe-8ee38e61e400.jpeg)
@@ -12,8 +14,6 @@
 - COMMENTS: Users can leave comments on tweets, with the ability to delete their own comments.
 ![Screen Shot 2023-04-14 at 12 15 33 PM](https://user-images.githubusercontent.com/100665876/232137552-49e2252f-3df9-4b94-af44-87fa62bcdd25.jpeg)
 - LIKES: Users can "like" both tweets and comments, with a polymorphic "like" feature that enables code reuse. Stats such as comment counts and retweet counts are updated accordingly.
-
-![Screen Shot 2023-04-14 at 12 14 28 PM](https://user-images.githubusercontent.com/100665876/232137069-6a6c72f5-17c5-4bfd-8ec7-dcf920a943b7.jpeg)
 
 ## Please initialize these before starting the app:
 
