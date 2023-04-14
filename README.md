@@ -17,5 +17,4 @@
 
 ![Screen Shot 2023-04-14 at 12 14 42 PM](https://user-images.githubusercontent.com/100665876/232137391-9c5c0905-86bd-40db-afbe-8ee38e61e400.jpeg)
 
-![Screen Shot 2023-04-14 at 12 14 51 PM](https://user-images.githubusercontent.com/100665876/232137217-cbd16189-cf19-4bbf-a622-2b6035b2cd8b.jpeg)
-
+![Screen Shot 2023-04-14 at 12 15 33 PM](https://user-images.githubusercontent.com/100665876/232137552-49e2252f-3df9-4b94-af44-87fa62bcdd25.jpeg)
