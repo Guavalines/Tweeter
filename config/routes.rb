@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   end
 
   resources :tweets, except: [:edit, :update] do
+    resources :comments, only: [:create, :destroy]
     member do
       post :retweet
     end
