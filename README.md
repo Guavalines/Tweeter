@@ -2,6 +2,10 @@
 
 TWEETER is a Twitter clone with Rails 7, featuring dynamic stat updates, polymorphic liking of comments and tweets, comment controls, turbo-comments, retweets, real-time tweet deletion, profile pages, and turbo-fied tweet creation.
 
+![Screen Shot 2023-04-15 at 12 54 41 PM](https://user-images.githubusercontent.com/100665876/232250749-688b9ab4-e9bb-4831-b43b-fb9b3635d460.jpeg)
+
+
+
 ### Main Features:
 
 - BASIC CRUD FOR TWEETS: Users may create, read, update, and destroy tweets.
