@@ -1,23 +1,29 @@
-# TWEETER
+![Tweeter](https://user-images.githubusercontent.com/100665876/232444976-a54d7c5a-374a-4ca9-8d35-fe516d6b7735.png)
+
+
+## Description
 
 TWEETER is a Twitter clone with Rails 7, featuring dynamic stat updates, polymorphic liking of comments and tweets, comment controls, turbo-comments, retweets, real-time tweet deletion, profile pages, and turbo-fied tweet creation.
 
+
+## Features:
+
+- Basic CRUD for tweets
+- User profiles
+- Users can leave comments on tweets, with the ability to delete their own comments.
+- Users can "like" both tweets and comments, with a polymorphic "like" feature that enables code reuse. Stats such as comment counts and retweet counts are updated accordingly.
+- Users can take action on their tweets using various controls, including the ability to delete their own tweets.
+- Users can retweet tweets from other users, creating a new tweet with a reference to the original author.
+- Uses Devise gem to create a user authentication system, which ties tweets to user accounts. Only authenticated users can author tweets.
+
+## Views
 ![Screen Shot 2023-04-15 at 12 54 41 PM](https://user-images.githubusercontent.com/100665876/232250749-688b9ab4-e9bb-4831-b43b-fb9b3635d460.jpeg)
 
-
-
-### Main Features:
-
-- BASIC CRUD FOR TWEETS: Users may create, read, update, and destroy tweets.
 ![Screen Shot 2023-04-14 at 12 14 28 PM](https://user-images.githubusercontent.com/100665876/232137069-6a6c72f5-17c5-4bfd-8ec7-dcf920a943b7.jpeg)
-- USER PROFILES: Includes user profiles, which display a given user's tweets and profile image.
+
 ![Screen Shot 2023-04-14 at 12 14 42 PM](https://user-images.githubusercontent.com/100665876/232137391-9c5c0905-86bd-40db-afbe-8ee38e61e400.jpeg)
-- COMMENTS: Users can leave comments on tweets, with the ability to delete their own comments.
+
 ![Screen Shot 2023-04-14 at 12 15 33 PM](https://user-images.githubusercontent.com/100665876/232137552-49e2252f-3df9-4b94-af44-87fa62bcdd25.jpeg)
-- LIKES: Users can "like" both tweets and comments, with a polymorphic "like" feature that enables code reuse. Stats such as comment counts and retweet counts are updated accordingly.
-- TWEET CONTROLS: Users can take action on their tweets using various controls, including the ability to delete their own tweets.
-- RETWEETING: Users can retweet tweets from other users, creating a new tweet with a reference to the original author.
-- USER AUTHENTICATION: Uses Devise gem to create a user authentication system, which ties tweets to user accounts. Only authenticated users can author tweets.
 
 ## Please initialize these before starting the app:
 
